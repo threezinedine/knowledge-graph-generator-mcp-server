@@ -1,0 +1,7 @@
+services:
+  calculator:
+    ports:
+      - 1111:8000
+    build:
+      context: .
+      dockerfile: Dockerfile
